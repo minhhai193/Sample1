@@ -1,0 +1,644 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #6e6f72;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 1.14em;
+  color: #6e6f72;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background-image: url("../image/background_header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header .header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2.5em 0;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+header .header-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-menu ul li {
+  margin-left: 1.5em;
+}
+
+header .header-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+header .header-menu ul li a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+header .header-banner {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+header .header-banner h1 {
+  font-size: 4.28em;
+  color: white;
+  font-family: "Sintony", sans-serif;
+  font-weight: 400;
+}
+
+header .header-banner p {
+  color: #cfcfcf;
+  font-size: 1.35em;
+  margin-bottom: 2em;
+}
+
+header .header-banner a {
+  background: #4edbde;
+  color: white;
+  padding: 1em 5em;
+  border-radius: 4px;
+  font-size: 1.14em;
+  font-weight: 400;
+}
+
+header .header-banner .banner-image {
+  margin-top: 4.5em;
+}
+
+header .header-banner .banner-image img {
+  max-width: 920px;
+}
+
+main .main-introduce {
+  padding-bottom: 5em;
+}
+
+main .main-introduce .introduce-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5em;
+}
+
+main .main-introduce .introduce-button a:first-child {
+  background: #ae99d9;
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 1em 2.8em;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+
+main .main-introduce .introduce-button a:first-child:hover {
+  background: #b898f0;
+}
+
+main .main-introduce .introduce-button a:last-child {
+  background: #ffffff;
+  margin-left: 7px;
+  font-family: "Lato", sans-serif;
+  color: #b1bad0;
+  padding: 1em 2.8em;
+  border-radius: 4px;
+  border: 1px solid #d4d2d2;
+  -webkit-box-shadow: 1px 1px 1px 1px #efefef;
+          box-shadow: 1px 1px 1px 1px #efefef;
+}
+
+main .main-introduce .introduce-button a:last-child:hover {
+  background: #f2f1f15c;
+}
+
+main .main-introduce .introduce-content {
+  text-align: center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+main .main-introduce .introduce-content h2 {
+  font-size: 2.5em;
+  color: #a3adb5;
+  font-family: "Sintony", sans-serif;
+}
+
+main .main-introduce .introduce-content p {
+  font-size: 1.42em;
+  font-family: "Lato", sans-serif;
+  color: #a3adb5;
+}
+
+main .main-register {
+  background: #f8f8f6;
+  padding-top: 6em;
+  padding-bottom: 30em;
+  background-image: url("../image/image_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .main-register h2 {
+  font-family: "Sintony", sans-serif;
+  font-size: 2.5em;
+  color: #a3adb5;
+  font-weight: 400;
+}
+
+main .main-register p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.14em;
+  color: #a3adb5;
+  margin-bottom: 2em;
+  line-height: 2em;
+}
+
+main .main-register .register-button a {
+  background-image: url("../image/background_banner.png");
+  padding: 1em 2em;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.14em;
+  font-family: "Lato", sans-serif;
+}
+
+main .main-register .register-button a:hover {
+  background: #b898f0;
+}
+
+main .main-banner {
+  text-align: center;
+  padding: 6em 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../image/background_banner.png");
+}
+
+main .main-banner h2 {
+  font-size: 2.5em;
+  font-family: "Sintony", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+main .main-banner p {
+  font-size: 1.07em;
+  font-family: "Lato", sans-serif;
+  color: white;
+  line-height: 2em;
+}
+
+main .main-banner a:first-child {
+  background: #4edbde;
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 1em 2.8em;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+
+main .main-banner a:last-child {
+  background: #ffffff;
+  margin-left: 7px;
+  font-family: "Lato", sans-serif;
+  color: #b1bad0;
+  padding: 1em 2.8em;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px 1px #efefef;
+          box-shadow: 1px 1px 1px 1px #efefef;
+}
+
+main .main-service {
+  padding: 9em 0;
+  background: #f6f6f4;
+}
+
+main .main-service .service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main-service .service-item .image img {
+  width: 100%;
+}
+
+main .main-service .service-item .content {
+  text-align: center;
+}
+
+main .main-service .service-item .content h2 {
+  font-family: "Sintony", sans-serif;
+  font-size: 2.5em;
+  color: #b6bec4;
+  padding-top: 1.5em;
+}
+
+main .main-service .service-item .content p {
+  padding-top: .5em;
+  font-size: 1.07em;
+  color: #b6bec4;
+  line-height: 2em;
+}
+
+main .main-service .service-item .content a {
+  color: #9880c5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.07em;
+  font-weight: bold;
+}
+
+main .main-subscription {
+  padding: 3em;
+  padding-bottom: 10em;
+}
+
+main .main-subscription .subscription_title {
+  text-align: center;
+}
+
+main .main-subscription .subscription_title h2 {
+  font-family: "Sintony", sans-serif;
+  font-size: 2.5em;
+  color: #977fc5;
+  font-weight: 400;
+}
+
+main .main-subscription .subscription_title p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.07em;
+  color: #977fc5;
+}
+
+main .main-subscription .subscription-free {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main .main-subscription .subscription-free .subscription-free-box {
+  -webkit-box-shadow: 4px 1px 9px 4px #bfbdbd5c;
+          box-shadow: 4px 1px 9px 4px #bfbdbd5c;
+  width: 33em;
+  height: 50em;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .free-join p {
+  font-size: 1.25em;
+  color: #9ca0ab;
+  font-family: "Sintony", sans-serif;
+  margin-top: 1em;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .free-join span {
+  color: #8068b0;
+  font-family: "Sintony", sans-serif;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-title {
+  background-image: url("../image/background_banner.png");
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-title h3 {
+  color: white;
+  font-size: 1.42em;
+  margin: 0;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body {
+  height: 91%;
+  padding: 1.5em 0;
+  border: 1px solid #d9d9d9;
+  border-top: 0;
+  border-radius: 4px;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .content {
+  padding: 0 3.92em;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .content .list strong {
+  color: #44c5c7;
+  font-family: "Lato", sans-serif;
+  font-size: 2.85em;
+  margin-bottom: .3em;
+  display: block;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .content .list ul li {
+  border-top: 2px solid #e7eaf1;
+  padding: 1em;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .content .list ul li p {
+  font-size: 1.14em;
+  color: #b3baca;
+  font-family: "Lato", sans-serif;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 0 3.92em;
+  padding-bottom: 2em;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .button a {
+  border: 2px solid #947cc3;
+  color: #947cc3;
+  font-family: "Lato", sans-serif;
+  font-size: 1.14em;
+  border-radius: 4px;
+  padding: 1em 34%;
+  font-weight: bold;
+}
+
+main .main-subscription .subscription-free .subscription-free-box .box-body .button i {
+  padding-left: 10px;
+}
+
+main .main-subscription .subscription-yearly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box {
+  width: 33em;
+  height: 50em;
+  -webkit-box-shadow: 4px 1px 9px 4px #bfbdbd5c;
+          box-shadow: 4px 1px 9px 4px #bfbdbd5c;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .subscription-join p {
+  font-size: 1.25em;
+  color: #9ca0ab;
+  font-family: "Sintony", sans-serif;
+  margin-top: 1em;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .subscription-join span {
+  color: #8068b0;
+  font-family: "Sintony", sans-serif;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-title {
+  background-image: url("../image/background_banner.png");
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-title h3 {
+  color: white;
+  font-size: 1.42em;
+  margin: 0;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body {
+  height: 91%;
+  padding: 1.5em 0;
+  border: 1px solid #d9d9d9;
+  border-top: 0;
+  border-radius: 4px;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .content {
+  padding: 0 3.92em;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .content .list strong {
+  color: #44c5c7;
+  font-family: "Lato", sans-serif;
+  font-size: 2.85em;
+  margin-bottom: .3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .content .list strong span {
+  color: #bcc4c9;
+  font-size: .5em;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .content .list ul li {
+  border-top: 2px solid #e7eaf1;
+  padding: 1em;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .content .list ul li p {
+  font-size: 1.14em;
+  color: #b3baca;
+  font-family: "Lato", sans-serif;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 0 3.92em;
+  padding-bottom: 2em;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .button a {
+  border: 2px solid #947cc3;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.14em;
+  border-radius: 4px;
+  padding: 1em 34%;
+  font-weight: bold;
+  background: #947cc3;
+}
+
+main .main-subscription .subscription-yearly .subscription-yearly-box .box-body .button i {
+  padding-left: 10px;
+}
+
+footer {
+  border-top: 3px solid #947cc3;
+  padding: 3em 0;
+}
+
+footer .footer-item {
+  padding-left: 10em;
+}
+
+footer .footer-item h3 {
+  color: #b7bfc5;
+  font-family: "Sintony", sans-serif;
+  padding-bottom: 10px;
+}
+
+footer .footer-item ul li {
+  padding-bottom: 10px;
+}
+
+footer .footer-item ul li a {
+  color: #b7bfc5;
+  font-weight: 600;
+}
+
+footer .footer-item ul li a:hover {
+  color: #947cc3;
+}
+
+@media screen and (max-width: 1024px) {
+  html, body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html, body {
+    font-size: 12px;
+  }
+  main .main-register {
+    background-image: none;
+    padding-bottom: 6em;
+  }
+  main .main-subscription .subscription-free {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6em;
+  }
+  main .main-subscription .subscription-yearly {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6em;
+  }
+  footer {
+    border-top: 3px solid #947cc3;
+    padding: 3em 0;
+  }
+  footer .footer-item {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .banner-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .banner-button a:first-child {
+    display: block;
+    margin: 0 0 10px 0 !important;
+    width: 165px;
+  }
+  .banner-button a:last-child {
+    display: block;
+    margin: 0 !important;
+    width: 165px;
+  }
+  main .main-subscription .subscription-free-box {
+    max-width: 23em;
+  }
+  main .main-subscription .subscription-free-box .button a {
+    padding: 1em 22% !important;
+  }
+  main .main-subscription .subscription-yearly-box {
+    max-width: 23em;
+  }
+  main .main-subscription .subscription-yearly-box .button a {
+    padding: 1em 22% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
